@@ -20,7 +20,7 @@ from oxapay import create_invoice, check_invoice
 # CONFIG
 USDT_TO_INR = 90
 MIN_USDT = 0.1
-UPI_ID = "itsakt5@ptyes"
+UPI_ID = "lolalole.upi"
 QR_PATH = "QR.jpg"
 
 class RechargeState(StatesGroup):
