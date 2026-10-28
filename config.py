@@ -12,11 +12,11 @@ def _getenv(name: str, default: str | None = None, required: bool = False) -> st
         raise RuntimeError(f"Missing required env var: {name}")
     return val
     
-MUST_JOIN_CHANNEL = "-1003411895884"
+MUST_JOIN_CHANNEL = "-1004314326546"
 BOT_TOKEN = _getenv("BOT_TOKEN", required=True)
 ADMIN_IDS = [int(i) for i in _getenv("ADMIN_IDS", "", required=True).replace(" ", "").split(",") if i]
-API_ID = "21377358"
-API_HASH = "e05bc1f4f03839db7864a99dbf72d1cd"
+API_ID = "32853799"
+API_HASH = "7618973ca6fa27183f6df27dfba88f26"
 
 DATABASE_URL = _getenv("DATABASE_URL", "mongodb+srv://.net/?retryWrites=true&w=majority&appName=AccountBot")
 
